@@ -4,6 +4,8 @@
 
 #include "judyS2Array.h"
 
+/// string-int (single-key, multi-value) Judy Array test.
+
 typedef judyS2Array< uint64_t > js2a;
 
 bool testFind( js2a & j, const char * key, unsigned int count ) {
